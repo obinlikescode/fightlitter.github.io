@@ -1,0 +1,543 @@
+/************************************************/
+/************* UNIVERSAL ELEMENTS ***************/
+/************************************************/
+
+/* Reset the space of the webpage */
+* {
+    margin: 0px;
+    padding: 0px;
+ }
+ 
+ /* These styles apply to almost all elements unless another rule set says otherwise */
+ body
+  {
+    
+    width: 100%;
+    
+    
+    
+ }
+ 
+ /* These rules apply to the header at the top of the page */
+ header {
+   font-family: 'Source Serif 4', serif;
+   font-size: 50px;
+   text-align: center;
+ 
+   padding-top: 75px;
+   
+   
+   
+   
+ }
+ 
+ /* These rules apply to the main content of the page below the header */
+ main { 
+ font-family: 'Source Serif 4', serif;
+ text-align: center;
+ color: #474747;
+ margin-right: 10%;
+ margin-left: 10%;
+
+
+ 
+ 
+ }
+ 
+ .quote{
+   padding-top: 100px;
+ }
+ 
+ #mequote{
+   text-align: right;
+     line-height: 300%;
+ 
+ }
+   
+  
+ 
+ 
+ 
+ /* Heading styles */
+ h1 {
+     font-family: 'Source Serif 4', serif;    
+     color: black;
+     font-size: 60px;
+       border: 6px solid lightblue;
+ 
+    
+ 
+ }
+ 
+ h2 {
+   font-family: 'Source Serif 4', serif;
+   text-align: center;
+   font-size: 40px;
+   padding-top: 10px;
+   
+   
+ } #why {
+   font-family: 'Source Serif 4', serif;
+   font-size: 40px;
+   padding-top: 300px;
+   padding-bottom: 20px;
+   color: lightblue;
+   text-align: left;
+ }
+ 
+ #statsheader {
+   font-family: 'Source Serif 4', serif;
+   font-size: 70px;
+   padding-top: 300px;
+   padding-bottom: 30px;
+   color: navy;
+   text-align:center;
+ }
+ 
+ #whatisourgoal{
+   padding-top: 300px;
+   font-size: 70px;
+   color: lightblue;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ h3 {
+    font-family: 'Source Serif 4', serif;
+      text-align: center;
+     font-size: 40px;
+     
+  }   
+ 
+ 
+ 
+ 
+ /* Paragraph style */
+ p { 
+    font-family: 'Source Sans Pro', sans-serif;
+      padding: 10px;
+      
+      font-size: 50px;
+ 
+    
+ } 
+      
+ 
+    
+    
+ 
+ 
+    
+ 
+ 
+ /* Link style */
+ a {
+   
+ }
+ 
+ 
+ /************************************************/
+ /*************** CSS FOR NAV BAR ****************/
+ /************************************************/  
+ 
+ /* Unorder list elements */
+ 
+ 
+ 
+ ul.nav-bar {
+ font-family: 'Playfair Display', serif;
+ font-weight: bold;
+ 
+ 
+ list-style-type: none;
+ background-color: lightblue;
+ overflow: hidden;
+ 
+ width: 100%;
+
+ 
+ 
+ 
+ }
+ 
+ /* List elements */
+ li.nav-item {
+    text-align: center;
+margin-left: 10%;
+   margin-right: 10%;
+
+ 
+ }
+ 
+ /* List elements with a link or <a> tag */
+ li.nav-item a { 
+   font-size: 25px;
+   color: white;
+   text-decoration: none;
+   padding: 30px;
+   
+  
+ 
+   
+ }
+ 
+ /* List elements with a link or <a> tag when you hover over them */
+ li.nav-item a:hover {
+  
+  background-color: rgb(153, 194, 230);;
+  color: black;
+ 
+ }
+ 
+ 
+ 
+ /************************************************/
+ /******************* HOMEPAGE *******************/
+ /************************************************/
+ 
+ .leaves{
+   font-size: 30px;
+   text-align: left;
+   line-height: 2;
+ }
+ 
+ img {
+   display: block;
+   width: 90%;
+   height: 90%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+   border: 6px solid lightblue;
+ 
+ }
+ 
+ .leave{
+   max-width: 30%;
+ }
+ 
+ #statsimages{
+ 
+ }
+ 
+ 
+ 
+ /* Subtitle */
+ 
+ 
+ /* Images*/ 
+ /* for flex bot*/
+ .flex-container{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   
+ }
+ 
+ .flex-items{
+   flex-basis: 100%;
+   margin: 50%;
+   
+ }
+
+ 
+ 
+ 
+
+ .streamcleanupimg{
+  width: 30%;
+  float: right;
+ }
+ 
+ 
+ /* Image Attributions (see under the middle image on the homepage) */
+ 
+ .attribution1{
+   font-size: 11px;
+   
+ }
+ 
+ .attribution2{
+   font-size: 11px;
+   
+ }
+ 
+ .attribution3{
+   font-size: 11px;
+   
+ }
+ 
+ 
+ .statsheader{
+ padding-bottom: 60px;
+ 
+ }
+ 
+ .stats{
+ font-size: 40px;
+ color: rgb(66, 108, 172);
+ 
+ }
+ 
+ 
+ 
+ .flex-container_for_stats{
+    display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   
+ 
+    
+ }
+ 
+ .flex-item_stats{
+   flex-basis: 100%;
+   margin: 5%;
+ }
+ 
+ 
+ .number{
+   font-weight: bold;
+   font-size: 70px;
+ font-family: 'Roboto Condensed', sans-serif;
+ color: rgb(39, 68, 139);
+ 
+ }
+ 
+ .flex-container-why{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+ }
+ 
+ .flex-item-why{
+   flex-basis: 100%;
+ 
+   padding-bottom: 300px;
+ }
+ 
+ 
+ /************************************************/
+ /***************** TAKE ACTION ******************/
+ /************************************************/
+ 
+ /* Text */
+ #filleraction{
+   padding-top: 300px;
+   color: lightblue;
+   font-size:70px;
+   text-align: left;
+ }
+ 
+#takingactionheader{
+  color: rgb(98, 129, 171);
+}
+
+ /* Checklist */
+ #steps {
+   /* Color and Shape */
+   background-image: url("notebookbackground.jpg");
+   color: lightblue;
+  
+
+   border: 2px solid lightblue;
+   border-radius: 25px;
+   
+ 
+   /* Positioning */
+ 
+  
+   margin-top: 200px;
+   text-align:center;
+
+   margin-right: 40%;
+   margin-left: 30%;
+   width: 40%;
+   height: 35%;
+
+   
+   
+   
+ }
+ 
+
+ 
+ #filleractiondescription{
+   font-size:30px;
+   color: black;
+   line-height: 2;
+   text-align: left;
+   
+ }
+
+ #steps2{
+  background-image: url("notebookbackground.jpg");
+   color: lightblue;
+  
+
+   border: 2px solid lightblue;
+   border-radius: 25px;
+   
+ 
+   /* Positioning */
+ 
+  
+   margin-top: 200px;
+   text-align:center;
+
+   margin-right: 40%;
+   margin-left: 30%;
+   margin-bottom: 30%;
+   width: 40%;
+   height: 35%;
+
+   
+ }
+ 
+ #stepheader{
+   color: lightblue;
+   font-size:90px;
+ }
+ 
+ #stepdesc{
+  display:inline;
+   font-size:25px;
+   color: black;
+   line-height: 2;
+   
+   background-color: lightblue;
+   
+ }
+ 
+#checklistheader{
+  font-family: 'Patrick Hand', cursive;
+  margin-top: 10px;
+}
+
+ .Step {
+  list-style-type: none;
+  font-size: 30px;
+  color: black;
+  line-height: 2;
+  padding: 4px;
+  font-family: 'Patrick Hand', cursive;
+
+ }
+ 
+ #calltoaction{
+   padding-top: 60px;
+   color: black;
+ }
+ 
+ .flex-container-takeaction{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   padding-left: 100px;
+   padding-right: 100px;
+ 
+ }
+ 
+ .flex-items-takeaction{
+   flex-basis: 100%;
+   margin: 4%;
+ }
+ 
+   
+ .clickhere{
+       font-family: 'Source Serif 4', serif;
+  font-size: 70px;
+  text-decoration: none;
+  color: lightblue;
+  padding-top: 200px; 
+  text-align: left;
+ 
+   
+ }
+ .checklistlink{
+   font-family: 'Source Serif 4', serif;
+  font-size: 30px;
+  text-decoration: none;
+  color: lightblue;
+  padding-top: 400px; 
+  padding-bottom: 200px;
+  text-align: left;
+ }
+ 
+ 
+ /* Unordered List Elements */
+ 
+ 
+ 
+ /* List Elements */
+ 
+ 
+ /************************************************/
+ /******************** ABOUT *********************/
+ /************************************************/
+ .Aboutmeheather{
+   margin-top: 300px;
+   color: lightblue;
+   text-align: left;
+ }
+ 
+ 
+     
+ 
+ .flex-container-about{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+ }
+ 
+ .flex-item-about{
+   flex-basis: 100%;
+   margin: 1%;
+ }
+ .aboutmedesc{
+   font-size: 30px;
+     text-align: left;
+       line-height: 2; 
+ }
+ 
+ 
+ .koipondpic{
+   width: 50%;
+ }
+ 
+ .GirlsWhoCodeLinkHeader{
+   margin-top: 300px;
+   color: lightblue;
+   text-align: center;
+   padding-top: 300px;
+ }
+ 
+ .GWC{
+   font-size: 30px;
+   line-height: 2;
+     text-align: center;
+ 
+ }
+ 
+ .gwcimg{
+  width: 50%;
+ }
+ 
+ /******************************************************/
+ /********** CHANGE CSS BASED ON SCREEN SIZE ***********/
+ /******************************************************/
+ 
+ 
+ 
+ /* Breakpoint 1: For screens that are 850 pixels wide or less */
+ 
+ 
+ /* Breakpoint 2: You try! */
+ 
+ 
+ /***********************************************/
+ 
